@@ -7,24 +7,32 @@ html, body {
 }
 
 header, footer {
+	height: 30vh;
+background-color: purple;
+font-size: 14px, 2em;
+font-family:'Montserrat', sans-serif;
 
 }
 
 .centered {
-
+color: white;
+margin-left:100px; 
+padding-top: 35px;
 }
 
 header .subtitle {
-
+color: white;
 }
 
 h1 {
-
+color: white;text-transform: uppercase; padding-top: 12px;
+margin-left:100px;
 }
 
 ul {
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: wrap;font-size: 12x, 1em;
+	margin-left:100px;
 }
 
 ul li {
@@ -32,37 +40,41 @@ ul li {
 }
 
 main {
-
+color: purple;
 }
 
 section {
-
+color: purple;
+margin-left:100px;
 }
 
 h2 {
-
+color: purple;
+border-bottom: solid purple 1px;
 }
 
 h3 {
-
+margin-left:100px;
 }
 
 p {
+margin-left:100px;
+color:black;
 
 }
 
 .details {
-
+	color:purple;
 }
 
 .object {
-
 }
 
 .object:after {
 	content: " | ";
+	color:black;
 }
 
 footer h2 {
-
+	color:black;
 }
